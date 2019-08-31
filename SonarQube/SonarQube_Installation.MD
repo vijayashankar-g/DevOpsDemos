@@ -18,7 +18,14 @@ Download stable SonarQube version from below website.
 - Website: https://www.sonarqube.org/downloads/
 - Note: This Article written for SonarQube6.0  
 
+
+sonarQube 7.9
+```sh
+wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-7.9.1.zip
+```
+
 Download & unzip SonarQube 6.0
+
 ```sh
 # cd /opt
 # wget https://sonarsource.bintray.com/Distribution/sonarqube/sonarqube-6.0.zip
