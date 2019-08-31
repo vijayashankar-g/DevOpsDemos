@@ -70,6 +70,12 @@ http://YOUR-SERVER-PUBLIC-IP:8080
   - `Manage Jenkins` > `Global Tool Configuration` > `JDK`  
 - Create another admin user id
 
+#### install Git for working with pipeline
+```
+sudo yum install git
+git --version
+```
+
 ### Test Jenkins Jobs
 1. Create “new item”
 1. Enter an item name – `My-First-Project`
@@ -79,6 +85,7 @@ http://YOUR-SERVER-PUBLIC-IP:8080
 1. Save your job 
 1. Build job
 1. Check "console output"
+
 
 ### Next Step
 - [x] [Configure Users & Groups in Jenkins](https://youtu.be/jZOqcB32dYM)
